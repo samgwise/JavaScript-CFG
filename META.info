@@ -1,13 +1,14 @@
 {
   "name" : "JavaScript::CFG",
-  "version" : "*",
+  "version" : "0.001",
   "description" : "A perl6 module for grafting constant functions into JavaScript source code.",
   "author" : "Sam Gillespie",
   "provides" : {
-      "JavaScript::CFG"         : "lib/JavaScript/CFG.pm",
-      "JavaScript::CFG::String" : "lib/JavaScript/CFG/String.pm",
-      "JavaScript::CFG::Number" : "lib/JavaScript/CFG/Number.pm",
-      "JavaScript::CFG::Script" : "lib/JavaScript/CFG/Script.pm",
+      "JavaScript::CFG"             : "lib/JavaScript/CFG.pm",
+      "JavaScript::CFG::String"     : "lib/JavaScript/CFG/String.pm",
+      "JavaScript::CFG::Number"     : "lib/JavaScript/CFG/Number.pm",
+      "JavaScript::CFG::Script"     : "lib/JavaScript/CFG/Script.pm",
+      "JavaScript::CFG::Graftable"  : "lib/JavaScript/CFG/Graftable.pm",
   },
   "depends" : [ ],
   "source-url" : "https://github.com/samgwise/JavaScript-CFG.git"

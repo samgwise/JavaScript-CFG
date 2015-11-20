@@ -1,5 +1,5 @@
 $(function () {
-    var ws = new WebSocket('ws://<<<HOST>>>:<<<PORT>>>/echo2');
+    var ws = new WebSocket( wsUrl() );
     ws.onopen = function () {
         log('connected');
     };
